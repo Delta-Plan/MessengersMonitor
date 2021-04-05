@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31129.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessengerMonitor", "MessengerMonitor\MessengerMonitor.csproj", "{6558025B-63E8-4798-8607-4606F4EB3761}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messengers", "Messengers", "{3E6297B0-9E94-463D-BA0C-AC9E909B9189}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{A15619EA-F128-4DF9-B8E4-348668114717}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DashBoard", "DashBoard\DashBoard.csproj", "{E709239D-CADF-4909-8CF3-815D390C1F1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PluginHandler", "PluginHandler\PluginHandler.csproj", "{A0A7B486-DCA8-4248-9EE8-DA601723D450}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VkMonitor", "VkMonitor\VkMonitor.csproj", "{EB6FD875-5131-4596-9C97-D79526A46FB4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6558025B-63E8-4798-8607-4606F4EB3761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6558025B-63E8-4798-8607-4606F4EB3761}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6558025B-63E8-4798-8607-4606F4EB3761}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6558025B-63E8-4798-8607-4606F4EB3761}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E709239D-CADF-4909-8CF3-815D390C1F1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E709239D-CADF-4909-8CF3-815D390C1F1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E709239D-CADF-4909-8CF3-815D390C1F1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E709239D-CADF-4909-8CF3-815D390C1F1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0A7B486-DCA8-4248-9EE8-DA601723D450}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0A7B486-DCA8-4248-9EE8-DA601723D450}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0A7B486-DCA8-4248-9EE8-DA601723D450}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0A7B486-DCA8-4248-9EE8-DA601723D450}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB6FD875-5131-4596-9C97-D79526A46FB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB6FD875-5131-4596-9C97-D79526A46FB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB6FD875-5131-4596-9C97-D79526A46FB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB6FD875-5131-4596-9C97-D79526A46FB4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0A7B486-DCA8-4248-9EE8-DA601723D450} = {A15619EA-F128-4DF9-B8E4-348668114717}
+		{EB6FD875-5131-4596-9C97-D79526A46FB4} = {3E6297B0-9E94-463D-BA0C-AC9E909B9189}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4652A921-DE6D-448C-842D-E15AD325C4D0}
+	EndGlobalSection
+EndGlobal

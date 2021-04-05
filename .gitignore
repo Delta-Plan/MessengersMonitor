@@ -1,0 +1,12 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/MessengerMonitor/DashBoard/bin/Debug
+/MessengerMonitor/DashBoard/obj/Debug
+/MessengerMonitor/MessengerMonitor/bin/Debug
+/MessengerMonitor/MessengerMonitor/obj/Debug
+/MessengerMonitor/PluginHandler/bin/Debug
+/MessengerMonitor/PluginHandler/obj/Debug
+/MessengerMonitor/VkMonitor/bin/Debug
+/MessengerMonitor/VkMonitor/obj/Debug
